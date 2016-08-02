@@ -1,0 +1,52 @@
+<class>
+	<name>froggy.MyClass</name>
+	<static_attributes>
+		<name>someVariable</name>
+		<value>231</value>
+		<access>public</access>
+	</static_attributes>
+	<static_attributes>
+		<name>SIZE</name>
+		<value>32</value>
+		<access>public</access>
+	</static_attributes>
+	<static_methods>
+		<name>get</name>
+		<return_type>int</return_type>
+			<exceptions>
+			</exceptions>
+		<access>private</access>
+	</static_methods>
+	<static_methods>
+		<name>getSomeWord</name>
+		<return_type>class java.lang.String</return_type>
+			<arguments>
+				<name>arg0</name>
+				<type>int</type>
+			</arguments>
+			<exceptions>
+			</exceptions>
+		<access>public</access>
+	</static_methods>
+	<object>
+		<field>
+			<name>verySpecialWords</name>
+			<value>Private variable</value>
+			<access>private</access>
+		</field>
+		<methods>
+			<name>getSomeNumber</name>
+			<return_type>int</return_type>
+			<exceptions>
+			</exceptions>
+			<access>public</access>
+		</methods>
+		<methods>
+			<name>getBool</name>
+			<return_type>boolean</return_type>
+			<exceptions>
+			</exceptions>
+			<access>private</access>
+		</methods>
+	</object>
+</class>
